@@ -130,39 +130,30 @@ img {
 
 
 /* TABLET RESPONSIVE CSS */
-
+.container {
+    width: 100%;
+}
 
 @media screen and (max-width: 768px) {
     .container {
        max-width: 768px;
-       padding-right: 0px;
-    }
-
-    html {
-        width: 768px;
     }
     
     .steps {
         display: flex;
         justify-content: space-between;
-        
-       
     }
 }
 
 
 
-
-
-
-
-
-
-/* 
+/* MOBILE RESPONDIVE CSS  */
 @media screen and (max-width: 576px) {
 .container {
     max-width: 576px;
-    padding: 0px;
 }
-} */
+
+
+
+}
 
