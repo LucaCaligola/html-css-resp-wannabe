@@ -151,10 +151,61 @@ img {
 @media screen and (max-width: 576px) {
 .container {
     max-width: 576px;
+    padding: 0px 30px;
+  
+}
+
+.row {
+    display: block;
+}
+
+
+.lessons .col {
+
+    width: 100%;
+
+}
+
+.card p {
+    padding-bottom: 50px;
+}
+
+.steps .col {
+    width: 100%;
+}
+
+.text-center {
+    margin: 0;
+    padding: 0;
 }
 
 
 
+.why-us {
+    background-color:#222222 ;
+}
+
+.why-us .container {
+    padding-top: 30px;
+}
+
+.container h2 {
+    padding-bottom: 15px;
+}
+
+
+.why-us .col {
+    width: 100%;
+}
+
+.col img {
+    padding-bottom: 50px;
+}
+
+.why-us {
+    
+    margin-bottom: 0px;
+}
 
 }
 
